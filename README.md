@@ -1,0 +1,2 @@
+# XOR Static Library
+ 
