@@ -31,22 +31,21 @@ int main(int argc, const char* argv[])
 To compile and use the XOR Static Library in Visual Studio 2022, follow these steps:
 
 1. Open Visual Studio 2022:
-* Start Visual Studio and open or create a new C++ project.
+     - Start Visual Studio and open or create a new C++ project.
 
 2. Add the XOR Static Library:
-* If the library is a header-only implementation, copy the XOR.h file directly into your project directory and include it in your source files.
-* If it's more complex and includes additional source files, add them to your project by right-clicking on your project in the Solution Explorer and selecting Add > Existing Item....
+     - If the library is a header-only implementation, copy the XOR.h file directly into your project directory and include it in your source files.
+     - If it's more complex and includes additional source files, add them to your project by right-clicking on your project in the Solution Explorer and selecting Add > Existing Item....
 
 3. Configure Project Properties:
-* Right-click on your project in Solution Explorer and select Properties.
-* In Configuration Properties > C/C++ > General, add the path to the XOR library in the Additional Include Directories field if necessary.
+     - Right-click on your project in Solution Explorer and select Properties.
+     - In Configuration Properties > C/C++ > General, add the path to the XOR library in the Additional Include Directories field if necessary.
 
 4. Set C++ Standard:
-* In Configuration Properties > C/C++ > Language, set the C++ Language Standard to at least C++17, as constexpr templates are essential for compile-time string obfuscation.
+     - In Configuration Properties > C/C++ > Language, set the C++ Language Standard to at least C++17, as constexpr templates are essential for compile-time string obfuscation.
 
 5. Build the Project:
-* Build your project by selecting Build > Build Solution or by pressing Ctrl + Shift + B.
+     - Build your project by selecting Build > Build Solution or by pressing Ctrl + Shift + B.
 
 6. Run the Application:
-* Once the project builds successfully, run your application to see the obfuscated strings decrypted and printed to the console.
-    
+     - Once the project builds successfully, run your application to see the obfuscated strings decrypted and printed to the console.
